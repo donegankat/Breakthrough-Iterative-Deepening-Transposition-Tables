@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467EC6CF16D04F3500EAB5D7 /* AB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC6C716D04F3500EAB5D7 /* AB.cpp */; };
+		467EC6D016D04F3500EAB5D7 /* Alpha Beta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC6C916D04F3500EAB5D7 /* Alpha Beta.cpp */; };
+		467EC6D116D04F3500EAB5D7 /* Misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC6CB16D04F3500EAB5D7 /* Misc.cpp */; };
+		467EC6D216D04F3500EAB5D7 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC6CC16D04F3500EAB5D7 /* Move.cpp */; };
+		467EC74716D05E1500EAB5D7 /* Eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC74316D05E1500EAB5D7 /* Eval.cpp */; };
+		467EC74816D05E1500EAB5D7 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC74516D05E1500EAB5D7 /* Game.cpp */; };
+		467EC92A16D2D4FB00EAB5D7 /* Stopwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC92916D2D4FB00EAB5D7 /* Stopwatch.cpp */; };
+		467EC95916D2E05C00EAB5D7 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC95716D2E05C00EAB5D7 /* Timer.cpp */; };
+		467EC97216D2E5E000EAB5D7 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EC97016D2E5E000EAB5D7 /* Math.cpp */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* Breakthrough Iterative Deepening Transposition Tables.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		467EC6C716D04F3500EAB5D7 /* AB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AB.cpp; sourceTree = "<group>"; };
+		467EC6C816D04F3500EAB5D7 /* AB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AB.h; sourceTree = "<group>"; };
+		467EC6C916D04F3500EAB5D7 /* Alpha Beta.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Alpha Beta.cpp"; sourceTree = "<group>"; };
+		467EC6CA16D04F3500EAB5D7 /* Alpha Beta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alpha Beta.h"; sourceTree = "<group>"; };
+		467EC6CB16D04F3500EAB5D7 /* Misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Misc.cpp; sourceTree = "<group>"; };
+		467EC6CC16D04F3500EAB5D7 /* Move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
+		467EC6CD16D04F3500EAB5D7 /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		467EC6CE16D04F3500EAB5D7 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		467EC74316D05E1500EAB5D7 /* Eval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eval.cpp; sourceTree = "<group>"; };
+		467EC74416D05E1500EAB5D7 /* Eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eval.h; sourceTree = "<group>"; };
+		467EC74516D05E1500EAB5D7 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		467EC74616D05E1500EAB5D7 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		467EC92916D2D4FB00EAB5D7 /* Stopwatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stopwatch.cpp; sourceTree = "<group>"; };
+		467EC95716D2E05C00EAB5D7 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		467EC95816D2E05C00EAB5D7 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		467EC97016D2E5E000EAB5D7 /* Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Math.cpp; sourceTree = "<group>"; };
+		467EC97116D2E5E000EAB5D7 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		467EC9C116D2EE8D00EAB5D7 /* ZobristValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZobristValues.h; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Breakthrough Iterative Deepening Transposition Tables"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* Breakthrough Iterative Deepening Transposition Tables.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "Breakthrough Iterative Deepening Transposition Tables.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Breakthrough Iterative Deepening Transposition Tables */ = {
+			isa = PBXGroup;
+			children = (
+				467EC9C116D2EE8D00EAB5D7 /* ZobristValues.h */,
+				467EC97016D2E5E000EAB5D7 /* Math.cpp */,
+				467EC97116D2E5E000EAB5D7 /* Math.h */,
+				467EC95716D2E05C00EAB5D7 /* Timer.cpp */,
+				467EC95816D2E05C00EAB5D7 /* Timer.h */,
+				467EC74316D05E1500EAB5D7 /* Eval.cpp */,
+				467EC74416D05E1500EAB5D7 /* Eval.h */,
+				467EC74516D05E1500EAB5D7 /* Game.cpp */,
+				467EC74616D05E1500EAB5D7 /* Game.h */,
+				467EC6C716D04F3500EAB5D7 /* AB.cpp */,
+				467EC6C816D04F3500EAB5D7 /* AB.h */,
+				467EC6C916D04F3500EAB5D7 /* Alpha Beta.cpp */,
+				467EC6CA16D04F3500EAB5D7 /* Alpha Beta.h */,
+				467EC6CB16D04F3500EAB5D7 /* Misc.cpp */,
+				467EC6CC16D04F3500EAB5D7 /* Move.cpp */,
+				467EC6CD16D04F3500EAB5D7 /* Move.h */,
+				467EC6CE16D04F3500EAB5D7 /* Piece.h */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				467EC92916D2D4FB00EAB5D7 /* Stopwatch.cpp */,
+			);
+			name = "Breakthrough Iterative Deepening Transposition Tables";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* Breakthrough Iterative Deepening Transposition Tables.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Breakthrough Iterative Deepening Transposition Tables" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breakthrough Iterative Deepening Transposition Tables";
+			productInstallPath = "$(HOME)/bin";
+			productName = "Breakthrough Iterative Deepening Transposition Tables";
+			productReference = 8DD76F6C0486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Breakthrough Iterative Deepening Transposition Tables" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Breakthrough Iterative Deepening Transposition Tables */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* Breakthrough Iterative Deepening Transposition Tables */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				467EC6CF16D04F3500EAB5D7 /* AB.cpp in Sources */,
+				467EC6D016D04F3500EAB5D7 /* Alpha Beta.cpp in Sources */,
+				467EC6D116D04F3500EAB5D7 /* Misc.cpp in Sources */,
+				467EC6D216D04F3500EAB5D7 /* Move.cpp in Sources */,
+				467EC74716D05E1500EAB5D7 /* Eval.cpp in Sources */,
+				467EC74816D05E1500EAB5D7 /* Game.cpp in Sources */,
+				467EC92A16D2D4FB00EAB5D7 /* Stopwatch.cpp in Sources */,
+				467EC95916D2E05C00EAB5D7 /* Timer.cpp in Sources */,
+				467EC97216D2E5E000EAB5D7 /* Math.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Breakthrough Iterative Deepening Transposition Tables";
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Breakthrough Iterative Deepening Transposition Tables";
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Breakthrough Iterative Deepening Transposition Tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Breakthrough Iterative Deepening Transposition Tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
